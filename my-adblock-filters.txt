@@ -1,0 +1,42 @@
+[Adblock Plus 2.0]
+! Title: Personal Adblock filters
+! Author: Dan
+! License: Creative Commons BY-NC-SA
+! Version: 7.6
+! Expires: 10 days
+! Homepage: https://github.com/Danimal4326/adblock_rules
+!----------------------------------------------------------------------------------------------------!
+!
+! Ad blocking rules
+!
+!
+||chicagobusiness.com/global/js/*
+||chicagobusiness.com/js/*
+||static*.cdn-seekingalpha.com/javascripts/packaged/coffee_packaged.js?*
+||sfvirtualagent.com/flash/*
+|http://www.tribdss.com/meter/ctcsportsngux.min.js
+|http://ssor.tribdss.com/assets/registration*
+||ssor.tribdss.com/reg/tribune/chingux.min.js
+||lightroomforums.net/cookies/*
+!
+! Whitelist rules
+!
+@@||checkfree.mecunet.org^$document
+@@||hulu.com^$document
+@@||vip.zappos.com^$document
+@@||adwords.google.com^$document
+@@||support.google.com^$document
+@@||online.citibank.com^$document
+@@||connect.facebook.net^$domain=zillow.com
+@@||ruelala.com^$document
+@@||priceless.giltcity.com^$document
+@@||adobe.com^$document
+@@||tweetdeck.twitter.com^$document
+@@||my.xmarks.com^$document
+@@||connect.facebook.net/en_US/*$domain=kayak.com
+@@||shopping.hp.com^$document
+@@||chicagotribune.com/hive/javascripts/video/*
+@@||the-cover-store.com^$document
+@@||ifttt.com^$document
+@@||home.nest.com^$document
+@@||wwws.mint.com^$document
