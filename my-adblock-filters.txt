@@ -40,3 +40,4 @@
 @@||ifttt.com^$document
 @@||home.nest.com^$document
 @@||wwws.mint.com^$document
+! Test Github add filter
