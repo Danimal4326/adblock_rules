@@ -6,6 +6,7 @@
 ! Expires: 10 days
 ! Homepage: https://github.com/Danimal4326/adblock_rules
 !----------------------------------------------------------------------------------------------------!
+
 !
 ! Ad blocking rules
 !
@@ -15,9 +16,10 @@
 ||ssor.tribdss.com/reg/tribune/chingux.min.js
 ||chicagobusiness.com/global/js/*
 ||chicagobusiness.com/js/*
-||static*.cdn-seekingalpha.com/javascripts/packaged/coffee_packaged.js?*
+||cdn-seekingalpha.com/javascripts/packaged/coffee_packaged.js^$important
 ||sfvirtualagent.com/flash/*
 ||lightroomforums.net/cookies/*
+
 !
 ! Whitelist rules
 !
