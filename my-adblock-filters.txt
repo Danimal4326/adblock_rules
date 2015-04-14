@@ -10,13 +10,13 @@
 ! Ad blocking rules
 !
 !
+|http://www.tribdss.com/meter/ctcsportsngux.min.js
+|http://ssor.tribdss.com/assets/registration*
+||ssor.tribdss.com/reg/tribune/chingux.min.js
 ||chicagobusiness.com/global/js/*
 ||chicagobusiness.com/js/*
 ||static*.cdn-seekingalpha.com/javascripts/packaged/coffee_packaged.js?*
 ||sfvirtualagent.com/flash/*
-|http://www.tribdss.com/meter/ctcsportsngux.min.js
-|http://ssor.tribdss.com/assets/registration*
-||ssor.tribdss.com/reg/tribune/chingux.min.js
 ||lightroomforums.net/cookies/*
 !
 ! Whitelist rules
@@ -40,4 +40,3 @@
 @@||ifttt.com^$document
 @@||home.nest.com^$document
 @@||wwws.mint.com^$document
-! Test Github add filter
