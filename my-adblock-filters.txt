@@ -2,7 +2,7 @@
 ! Title: Personal Adblock filters
 ! Author: Dan
 ! License: Creative Commons BY-NC-SA
-! Version: 7.6
+! Version: 7.7
 ! Expires: 10 days
 ! Homepage: https://github.com/Danimal4326/adblock_rules
 !----------------------------------------------------------------------------------------------------!
