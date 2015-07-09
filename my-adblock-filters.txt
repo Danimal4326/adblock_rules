@@ -2,7 +2,7 @@
 ! Title: Personal Adblock filters
 ! Author: Dan
 ! License: Creative Commons BY-NC-SA
-! Version: 7.8
+! Version: 7.9
 ! Expires: 10 days
 ! Homepage: https://github.com/Danimal4326/adblock_rules
 !----------------------------------------------------------------------------------------------------!
@@ -11,8 +11,9 @@
 ! Ad blocking rules
 !
 !
-|http://www.tribdss.com/meter/ctcsportsngux.min.js
-|http://ssor.tribdss.com/assets/registration*
+||www.tribdss.com/meter/ctcsportsngux.min.js
+||www.tribdss.com/meter/ctcngux.min.js
+||ssor.tribdss.com/assets/registration*
 ||ssor.tribdss.com/reg/tribune/chingux.min.js
 ||ssor.tribdss.com/reg/tribune/assets/chinguxnav2-dialog*
 ||chicagobusiness.com/global/js/*
