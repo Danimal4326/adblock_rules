@@ -25,12 +25,6 @@
 !
 ! Whitelist rules
 !
-@@||checkfree.mecunet.org^$document
-@@||hulu.com^$document
-@@||vip.zappos.com^$document
-@@||support.google.com^$document
-@@||online.citibank.com^$document
-@@||my.xmarks.com^$document
 @@||connect.facebook.net/en_US/*$domain=kayak.com
 @@||connect.facebook.net^$domain=zillow.com
 @@||chicagotribune.com/hive/javascripts/video/*
