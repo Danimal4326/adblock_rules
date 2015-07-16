@@ -2,7 +2,7 @@
 ! Title: Personal Adblock filters
 ! Author: Dan
 ! License: Creative Commons BY-NC-SA
-! Version: 7.9
+! Version: 8.0
 ! Expires: 10 days
 ! Homepage: https://github.com/Danimal4326/adblock_rules
 !----------------------------------------------------------------------------------------------------!
@@ -28,19 +28,9 @@
 @@||checkfree.mecunet.org^$document
 @@||hulu.com^$document
 @@||vip.zappos.com^$document
-@@||adwords.google.com^$document
 @@||support.google.com^$document
 @@||online.citibank.com^$document
-@@||connect.facebook.net^$domain=zillow.com
-@@||ruelala.com^$document
-@@||priceless.giltcity.com^$document
-@@||adobe.com^$document
-@@||tweetdeck.twitter.com^$document
 @@||my.xmarks.com^$document
 @@||connect.facebook.net/en_US/*$domain=kayak.com
-@@||shopping.hp.com^$document
+@@||connect.facebook.net^$domain=zillow.com
 @@||chicagotribune.com/hive/javascripts/video/*
-@@||the-cover-store.com^$document
-@@||ifttt.com^$document
-@@||home.nest.com^$document
-@@||wwws.mint.com^$document
