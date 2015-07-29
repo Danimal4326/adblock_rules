@@ -15,6 +15,7 @@
 ||www.tribdss.com/meter/ctcngux.min.js
 ||ssor.tribdss.com/assets/registration*
 ||ssor.tribdss.com/reg/tribune/chingux.min.js
+||ssor.tribdss.com/reg/tribune/chinguxnav2.min.js
 ||ssor.tribdss.com/reg/tribune/assets/chinguxnav2-dialog*
 ||chicagobusiness.com/global/js/*
 ||chicagobusiness.com/js/*
