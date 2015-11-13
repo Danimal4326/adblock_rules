@@ -19,7 +19,7 @@
 ||ssor.tribdss.com/reg/tribune/assets/chinguxnav2-dialog*
 ||chicagobusiness.com/global/js/*
 ||chicagobusiness.com/js/*
-||cdn-seekingalpha.com/javascripts/packaged/coffee_packaged.js^$important
+||seekingalpha.com/javascripts/packaged/coffee_packaged.js^$important
 ||sfvirtualagent.com/flash/*
 ||lightroomforums.net/cookies/*
 
