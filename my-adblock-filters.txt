@@ -2,30 +2,38 @@
 ! Title: Personal Adblock filters
 ! Author: Dan
 ! License: Creative Commons BY-NC-SA
-! Version: 8.0
+! Version: 8.1
 ! Expires: 10 days
 ! Homepage: https://github.com/Danimal4326/adblock_rules
 !----------------------------------------------------------------------------------------------------!
 
-!
-! Ad blocking rules
-!
-!
+!!!!!!!!!!!!!!!!!!!!!
+! Ad blocking rules !
+!!!!!!!!!!!!!!!!!!!!!
+
+!!! Chicago Tribune !!!
 ||www.tribdss.com/meter/ctcsportsngux.min.js
 ||www.tribdss.com/meter/ctcngux.min.js
 ||ssor.tribdss.com/assets/registration*
 ||ssor.tribdss.com/reg/tribune/chingux.min.js
 ||ssor.tribdss.com/reg/tribune/chinguxnav2.min.js
 ||ssor.tribdss.com/reg/tribune/assets/chinguxnav2-dialog*
+||g00.chicagotribune.com/g00$script
+
+!!! Chicago Business Daily !!!
 ||chicagobusiness.com/global/js/*
 ||chicagobusiness.com/js/*
+
+!!! SeekingAlpha !!!
 ||seekingalpha.com/javascripts/packaged/coffee_packaged.js^$important
+
+!!! Misc !!!
 ||sfvirtualagent.com/flash/*
 ||lightroomforums.net/cookies/*
 
-!
-! Whitelist rules
-!
+!!!!!!!!!!!!!!!!!!!
+! Whitelist rules !
+!!!!!!!!!!!!!!!!!!!
 @@||connect.facebook.net/en_US/*$domain=kayak.com
 @@||connect.facebook.net^$domain=zillow.com
 @@||chicagotribune.com/hive/javascripts/video/*
