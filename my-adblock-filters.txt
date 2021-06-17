@@ -34,6 +34,9 @@ chicagobusiness.com##+js(cookie-remover, ref_cookie)
 !!! NY Times !!!
 ||nytimes.com/vi-assets/static-assets/*vendor*$script
 
+!!! Boston Globe !!!
+||meter.bostonglobe.com/js/meter.js$script
+
 !!! SeekingAlpha !!!
 ||seekingalpha.com/javascripts/packaged/coffee_packaged.js^$important
 
