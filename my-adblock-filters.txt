@@ -12,14 +12,27 @@
 !!!!!!!!!!!!!!!!!!!!!
 
 !!! Chicago Tribune !!!
-||www.tribdss.com/meter/$script
-||www.tribdss.com/meter/assets/$script
-||tribdss.com/reg/tribune/$script
-||*.g00.chicagotribune.com/g00/$script
+||player.sendtonews.com$script
+||zephr.com/tribune/zephr-minify*.js$script
+!||www.tribdss.com/meter/$script
+!||www.tribdss.com/meter/assets/$script
+!||tribdss.com/reg/tribune/$script
+!||*.g00.chicagotribune.com/g00/$script
 
 !!! Chicago Business Daily !!!
-||chicagobusiness.com/global/js/*
-||chicagobusiness.com/js/*
+||tinypass.com$script,domain=chicagobusiness.com
+chicagobusiness.com##+js(cookie-remover, ref_cookie)
+
+!!! Chicago Sun-Times !!!
+||tinypass.com/api/tinypass*.js$script,domain=suntimes.com
+||tinypass.com/xbuilder/$script,domain=suntimes.com
+/adblock/$domain=suntimes.com
+
+!!! Business Insider !!!
+||businessinsider.com/chunks/scripts/*piano*$script
+
+!!! NY Times !!!
+||nytimes.com/vi-assets/static-assets/*vendor*$script
 
 !!! SeekingAlpha !!!
 ||seekingalpha.com/javascripts/packaged/coffee_packaged.js^$important
