@@ -2,7 +2,7 @@
 ! Title: Personal Adblock filters
 ! Author: Dan
 ! License: Creative Commons BY-NC-SA
-! Version: 8.2
+! Version: 10.0
 ! Expires: 10 days
 ! Homepage: https://github.com/Danimal4326/adblock_rules
 !----------------------------------------------------------------------------------------------------!
@@ -11,45 +11,85 @@
 ! Ad blocking rules !
 !!!!!!!!!!!!!!!!!!!!!
 
-!!! Chicago Tribune !!!
-||player.sendtonews.com$script
-||zephr.com/tribune/zephr-minify*.js$script
-!||www.tribdss.com/meter/$script
-!||www.tribdss.com/meter/assets/$script
-!||tribdss.com/reg/tribune/$script
-!||*.g00.chicagotribune.com/g00/$script
+!!! The Atlantic !!!
+theatlantic.com###nudge
+||theatlantic.com/_next/static/$script
+
+
+!!! Boston Globe !!!
+||bostonglobe.com/js/meter.js$script
+
+
+!!! Business Insider !!!
+||businessinsider.com/chunks/scripts/*piano*$script
+
 
 !!! Chicago Business Daily !!!
 ||tinypass.com$script,domain=chicagobusiness.com
 chicagobusiness.com##+js(cookie-remover, ref_cookie)
+
 
 !!! Chicago Sun-Times !!!
 ||tinypass.com/api/tinypass*.js$script,domain=suntimes.com
 ||tinypass.com/xbuilder/$script,domain=suntimes.com
 /adblock/$domain=suntimes.com
 
-!!! Business Insider !!!
-||businessinsider.com/chunks/scripts/*piano*$script
+
+!!! Chicago Tribune !!!
+||player.sendtonews.com$script
+||zephr.com/tribune/zephr-minify*.js$script
+@@||chicagotribune.com/hive/javascripts/video/*
+
+
+! Crain Chicago Business
+chicagobusiness.com##^script:has-text(paywallDescription)
+||player.simplecast.com$subdocument
+
 
 !!! NY Times !!!
 ||nytimes.com/vi-assets/static-assets/$script
 
-!!! Boston Globe !!!
-||meter.bostonglobe.com/js/meter.js$script
+
+!!! Pandora !!!
+@@||pandora.com/static/ads/omsdk-v1_3/omweb-video-v1_3/omweb-v1-m.js
+
+
+!!! Reddit !!!
+old.reddit.com##.active.login-required.add.option
+
 
 !!! SeekingAlpha !!!
 ||seekingalpha.com/javascripts/packaged/coffee_packaged.js^$important
 
-!!! Pandora !!!
-@@||pandora.com/static/ads/omsdk-v1_3/omweb-video-v1_3/omweb-v1-m.js
+
+!!! YouTube !!!
+youtube.com###chat
+
+
+!!! washingtonpost !!!
+||subscribe.washingtonpost.com
+||washingtonpost.com/*/_next/static/chunks/pages/$script
+
 
 !!! Misc !!!
 ||sfvirtualagent.com/flash/*
 ||lightroomforums.net/cookies/*
 
+! 2021-02-05 https://io.narrative.io
+||io.narrative.io
+
+! 2021-02-05 https://pixel.tapad.com
+||tapad.com
+
+! 2021-07-20 https://www.circuitlab.com
+www.circuitlab.com###timetrialhypersticial_content
+
+! 2021-07-30 https://finance.yahoo.com
+||finance.yahoo.com/__finStreamer-worker.js$script,domain=finance.yahoo.com
+
+
 !!!!!!!!!!!!!!!!!!!
 ! Whitelist rules !
 !!!!!!!!!!!!!!!!!!!
-@@||connect.facebook.net/en_US/*$domain=kayak.com
-@@||connect.facebook.net^$domain=zillow.com
-@@||chicagotribune.com/hive/javascripts/video/*
+!@@||connect.facebook.net/en_US/*$domain=kayak.com
+!@@||connect.facebook.net^$domain=zillow.com
