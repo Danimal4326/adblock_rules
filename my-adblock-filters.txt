@@ -32,13 +32,16 @@ chicagobusiness.com##+js(cookie-remover, ref_cookie)
 ||businessinsider.com/chunks/scripts/*piano*$script
 
 !!! NY Times !!!
-||nytimes.com/vi-assets/static-assets/*vendor*$script
+||nytimes.com/vi-assets/static-assets/$script
 
 !!! Boston Globe !!!
 ||meter.bostonglobe.com/js/meter.js$script
 
 !!! SeekingAlpha !!!
 ||seekingalpha.com/javascripts/packaged/coffee_packaged.js^$important
+
+!!! Pandora !!!
+@@||pandora.com/static/ads/omsdk-v1_3/omweb-video-v1_3/omweb-v1-m.js
 
 !!! Misc !!!
 ||sfvirtualagent.com/flash/*
